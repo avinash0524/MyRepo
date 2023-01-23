@@ -139,17 +139,13 @@ http://13.234.75.150:9000
 </profile>
 </profiles>
     <build>
+    <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.11.v20150529</version>
-                <configuration>
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
-                    <webApp>
-                        <contextPath>/</contextPath>
-                    </webApp>
-                </configuration>
+                
 		   
             </plugin>
 		<plugin>
@@ -180,6 +176,7 @@ http://13.234.75.150:9000
 		        </executions>
 		</plugin>
         </plugins>
+	    </pluginManagement>
     </build>
 </project>
 
