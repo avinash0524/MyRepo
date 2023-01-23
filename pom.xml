@@ -151,7 +151,7 @@ http://13.234.75.150:9000
 		<plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.1.2184</version>
+        <version>latest</version>
       </plugin>
 		<!-- CODE COVERAGE -->
 		    <plugin>
